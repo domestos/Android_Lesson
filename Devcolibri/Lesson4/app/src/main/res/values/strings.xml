@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lesson4</string>
+    <string name="btn_text_USA">USA</string>
+    <string name="btn_text_UA">UA</string>
+    <string name="app_name_UA">Урок 4</string>
+</resources>
