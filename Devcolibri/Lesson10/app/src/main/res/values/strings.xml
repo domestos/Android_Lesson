@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lesson10</string>
+    <string name="getName">Say me your name</string>
+    <string name="getSurname">Say me your surname</string>
+
+    <string name="btnSayName">Say Name</string>
+    <string name="btnSendName">Send Name</string>
+    <string name="btnSaySurname">Say Surname</string>
+    <string name="btnSendSurname">Send Surname</string>
+</resources>
