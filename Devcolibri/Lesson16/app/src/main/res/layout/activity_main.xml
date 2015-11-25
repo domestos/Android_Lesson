@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vpelenskyi.lesson16.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:onClick="onInfoLog"/>
+
+    <Button
+        android:id="@+id/btnError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error"
+        android:onClick="onErrorLog"/>
+
+    <Button
+        android:id="@+id/btnWarn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onWarnLog"
+        android:text="Warn" />
+
+    <Button
+        android:id="@+id/btnDebug"
+        android:onClick="onDebugLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug" />
+</LinearLayout>
