@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson25</string>
+    <string name="tv_first_fragment">my first text fragment</string>
+    <string name="tv_second_fragment">my second text fragment</string>
+    <string name="btn_add_fragment">Add</string>
+    <string name="btn_text_change">Change</string>
+</resources>
