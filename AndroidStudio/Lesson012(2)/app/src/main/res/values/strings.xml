@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lesson012(2)</string>
+    <string name="big_tetx">
+        Toasts
+In this document
+The Basics
+Positioning your Toast
+Creating a Custom Toast View
+Key classes
+Toast
+A toast provides simple feedback about an operation in a small popup. It only fills the amount of space required for the message and the current activity remains visible and interactive. For example, navigating away from an email before you send it triggers a "Draft saved" toast to let you know that you can continue editing later. Toasts automatically disappear after a timeout.
+
+
+    </string>
+</resources>
