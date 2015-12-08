@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    // item - it is a separate element (all elements in the tag will apply, when clicked the button)
+    <item android:state_pressed="true">
+        //shape - indicates the shape buttons (how must view button)
+        <shape android:shape="rectangle">
+            //set color button
+            <solid android:color="#66128bed" />
+            //ser radius
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    // when button don't clicked
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#d680dded" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</selector>
