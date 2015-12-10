@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group_color">
+
+        <item
+            android:id="@+id/color_green"
+            android:title="COLOR GREEN" />
+
+        <item
+            android:id="@+id/color_blue"
+            android:title="COLOR BLUE" />
+        <item
+            android:id="@+id/color_red"
+            android:title="COLOR RED" />
+    </group>
+
+
+    <group android:id="@+id/group_size">
+        <item
+            android:id="@+id/size_20dp"
+            android:title="size 20dp" />
+        <item
+            android:id="@+id/size_40dp"
+            android:title="size 40dp" />
+        <item
+            android:id="@+id/size_60dp"
+            android:title="size 60dp" />
+
+    </group>
+</menu>
