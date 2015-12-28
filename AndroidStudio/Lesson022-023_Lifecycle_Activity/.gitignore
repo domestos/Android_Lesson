@@ -1,0 +1,8 @@
+*.dml
+.gradle
+/local.properties
+/.ddea/workspace.xml
+/.ddea/libraries
+.DS_Store
+/build
+/captures
