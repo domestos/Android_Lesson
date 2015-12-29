@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lesson032_IntentURL</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+</resources>
