@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.hol.varenik.lesson036_sqlite.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show all" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFunction"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Function SQL" />
+
+            <EditText
+                android:text="count(*)as Count"
+                android:id="@+id/edFunction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPeoples"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Peoples" />
+
+            <EditText
+                android:id="@+id/edPeoples"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPeopleOnRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="people on region" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPeopleOnRegionWhere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="people on region where >" />
+
+            <EditText
+
+                android:id="@+id/edPeoplesOnRegWhere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Order" />
+
+            <RadioGroup
+                android:id="@+id/rGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbNames"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="names" />
+
+                <RadioButton
+                    android:id="@+id/rbPeoples"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="peoples" />
+
+                <RadioButton
+                    android:id="@+id/rbRegions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="regions" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
