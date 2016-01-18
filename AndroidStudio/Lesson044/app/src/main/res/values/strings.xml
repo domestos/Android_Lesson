@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lesson044</string>
+
+    <array name="names">
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+        <item>Valera</item>
+        <item>Roma</item>
+        <item>Dima</item>
+        <item>Kiril</item>
+        <item>Ira</item>
+    </array>
+</resources>
