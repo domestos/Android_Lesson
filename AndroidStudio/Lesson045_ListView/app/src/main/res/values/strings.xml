@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lesson045_ListView</string>
+    <array name="group">
+        <item>HTC</item>
+        <item>Samsung</item>
+        <item>LG</item>
+    </array>
+
+    <array name="phoneHTC">
+        <item>Sensation</item>
+        <item>Desire</item>
+        <item>Wildfire</item>
+        <item>Hero</item>
+    </array>
+
+    <array name="phoneSams">
+        <item>Galaxy S II</item>
+        <item>Galaxy S III</item>
+        <item>Galaxy Wave</item>
+    </array>
+
+
+    <array name="phoneLG">
+        <item>Optimus</item>
+        <item>Optimus Link</item>
+        <item>Optimus Black</item>
+        <item>Optimus One</item>
+    </array>
+</resources>
